@@ -1,6 +1,6 @@
 const express = require('express');
 const {getCityFromZipcode, getPackageDescriptionNpm} = require('utils-playground');
-//let cidades = require('.')
+
 const app = express();
 
 const cidades = async (req,res) => {

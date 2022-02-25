@@ -1,6 +1,6 @@
 const express = require('express');
 const {getCityFromZipcode, getPackageDescriptionNpm} = require('utils-playground');
-const { cidades, nomePacote } = require('../script');
+const { cidades, nomePacote } = require('./script');
 
 
 const rotas = express();
